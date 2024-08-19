@@ -2,15 +2,20 @@
 
 Este tipo de arquitectura se caracteriza por resolver el "Separation of Concerns" usando 4 capas llamadas "Dominio", "Casos de uso", "Adaptadores" y "Externa". A continuación se detallan sus características.
 
+> <br>
+
 * DOMINIO: 
 
 En el dominio se van a incluir las entiedades y lógicas de negocio, por lo cual es lo único que no puede cambiar y todas las demas capas van a depender de él. A su vez, serían todos aquellos requisitos del negocio que no estan tecnicamente limitados por nada, sino que estan porque la aplicación necesita que sea así.
 
+> <br>
+
 > [!NOTE]
 > EJEMPLO:
-> <hr>
-> Supongamos que necesitamos crear una aplicación bancaria. Uno de los requisitos para que una persona pueda abrirse una cuenta en el banco es que tenga mas de 18 años. Este requerimiento es una logica de negocio, porque no hay nada técnico que nos limite, a la hora de escribir codigo, que cuando creamos un usuario tenga que tener mas de 18 años.
-> Siguiendo esta logica, un usuario es una entidad, por lo cual es parte del dominio, así como tambien una cuenta de banco podría ser una entidad
+> <br>
+> Supongamos que necesitamos crear una aplicación bancaria. Uno de los requisitos para que una persona pueda abrirse una cuenta en el banco es que tenga mas de 18 años. Este requerimiento es una logica de negocio, porque no hay nada técnico que nos limite, a la hora de escribir codigo, que cuando creamos un usuario tenga que tener mas de 18 años. Siguiendo esta logica, un usuario es una entidad, por lo cual es parte del dominio, así como tambien una cuenta de banco podría ser una entidad
+
+> <br>
 
 ``` TypeScript
 // Entidad Usuario
@@ -37,16 +42,15 @@ class BankAccount {
 }
 ```
 
+> <br>
 
+> [!IMPORTANT]
+> Tambien existen lo que se llaman "Bussines Rules" o "Organization Rules", y estas son:
+> <br>
+> * Bussines Rules: aquellos requisitos que son única y exclusivamente del negocio. Ejemplo: tengo un lavadero de autos y siempre hay que usar un javon muy especifico para lavar.
+> * Organization Rules: aquellos requisitos que se deben cumplir en todos los bussines rules: Ejemplo: tengo una empresa que tiene varios negocios y quiero que en todos esos negocios solo trabajen hombres.
 
-la manera de diferenciar que cosas van y son parte del dominio es pensar en si esta regla o requisito que queremos implementar es algo tecnico o solamente una logica de negocio, es decir, si tenemos que implementar algo que tecnicamente no se puede realizar entonces no es parte del dominio, sino mas bien de los casos de uso, ahora bien, si tenemos un requisitos que es meramente parte de una logica del negocio, como que solo las personas mayores de 18 años puedan abrirse una cuenta de banco, entonces estamos hablando de algo parte del dominio
-
-
-Tambien existen dentro de lo que involucra el dominio, lo que se llaman bussines rules o organization rules, y estas son:
-
-bussines rules, aquellos requisitos que son única y exclusivamente del negocio, es decir, tengo un lavadero de autos y siempre hay que usar un javon muy especifico para lavar.
-
-organization rules, aquellos requisitos que se deben cumplir en todos los bussines rules, es decir, tengo una empresa que tiene varios negocios y quiero que en todos esos negocios solo trabajen hombres.
+> <br>
 
 * CASOS DE USO:
 
