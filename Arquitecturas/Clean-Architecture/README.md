@@ -13,7 +13,7 @@ En el dominio se van a incluir las entiedades y lógicas de negocio, por lo cual
 
 > [!NOTE]
 > EJEMPLO:
-> <br>
+> <hr>
 > Supongamos que necesitamos crear una aplicación bancaria. Uno de los requisitos para que una persona pueda abrirse una cuenta en el banco es que tenga mas de 18 años. Este requerimiento es una lógica de negocio, porque no hay nada técnico que nos limite, a la hora de escribir codigo, que cuando creamos un usuario tenga que tener mas de 18 años. Siguiendo esta lógica, un usuario es una entidad, por lo cual es parte del dominio, así como tambien una cuenta de banco podría ser una entidad
 > <br>
 
@@ -65,7 +65,7 @@ Sin embargo, esperamos que los cambios en el funcionamiento de la aplicación af
 
 > [!NOTE]
 > EJEMPLO:
-> <br>
+> <hr>
 > Tenemos un formulario que cuando se ingresan mal los datos, tiene que salir un "popup" de color rojo indicando que se ingresaron mal los campos. Esto está limitado tecnicamente porque hay que respetar algunas normas de UI o si se quiere, esta limitado psicológicamente ya que el color rojo indica advertencia/peligro, y si nosotros ponemos un popup de color verde generaría confusión.
 > <br>
 
@@ -98,7 +98,7 @@ Hay que tener en cuenta que tanto los casos de uso como la capa externa NUNCA de
 
 > [!NOTE]
 > EJEMPLO:
-> <br>
+> <hr>
 > Tenemos una base de datos que guarda usuarios mediante una función, esta recibe los argumentos (id: string, data: BankAccount(interfaz en la parte declarada en el dominio☝️)) pero esa id no esta dentro de ninguna entidad, por lo que debemos crear un nuevo objeto adaptado a los argumentos que recibe esa función.
 > <br>
 
@@ -133,10 +133,11 @@ class DBAdapter implements DBBankAdapterInterface {
 ## EXTERNA:
 
 La capa externa o detalles de implementacion vendrian a ser todo lo que puede cambiarse y nunca va a afectar al proyecto, es decir, el front end, back end y hasta una base de datos son capas externas, porque se pueden desarrollar con diferentes tecnologías y nunca va a cambiar al proyecto o verse afectado.
+> <br>
 
 > [!NOTE]
 > EJEMPLO:
-> <br>
+> <hr>
 > Nosotros podemos tener varios frameworks/tecnologías dentro de nuestra aplicación, como por ejemplo React.js para el FrontEnd y Express para el BackEnd, pero como estas no dejan de ser partes de la capa externa ¿Como hacemos para aplicar los caso de uso o dominio dentro de un framework, que a su vez es una capa externa?, bueno la solución es segmentar estos proyectos de manera que la lógica principal del proyecto no dependa del framework que estemos utilizando.
 > <br>
 
