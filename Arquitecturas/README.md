@@ -1,8 +1,8 @@
 # Que son las Arquitecturas
 
-Son ideas o sugerencias de como estructurar un proyecto. A diferencia con los patrones de diseños, las arquitecturas no nos son una guia paso a paso de como solucionar un problema, sino que mas bien nos indican de que manera podriamos solucionarlo y luego nosotros aplicamos a conveniencia.
+Son ideas o sugerencias de como estructurar el código de un proyecto, si bien la manera de organizar las carpetas y archivos estan ligadas a la arquitectura, esta es mas bien una consecuencia de seguir los principios del patron. A diferencia con los patrones de diseños, las arquitecturas no son una guia paso a paso de como solucionar un problema, sino que mas bien nos indican de que manera podríamos solucionarlo y luego nosotros lo aplicamos a conveniencia.
 
-Todos los tipos de arquitecturas buscan resolver un mismo problema llamado "Separation of Concerns", que es, separar las responsabilidades para que sean fáciles de mantener, extender y comprender, separar los casos de uso de lógica de negocio de los que son funcionales, por ejemplo, en una aplicación bancaria no existe ningún requisito técnico que nos diga que una persona menor de 18 años no pueda registrarse, porque a nivel de codigo no hay nada que limite eso, pero la lógica de negocio si lo hace, entonces ahí es cuando entra la parte funcional, que nos va a "decir" como vamos a aplicar los requisitos de negocio en la aplicación.
+Todos los tipos de arquitecturas buscan resolver un mismo problema llamado "Separation of Concerns", que és, separar las responsabilidades para que sean fáciles de mantener, extender y comprender, separar los casos de uso de lógica de negocio de los que son funcionales, por ejemplo, en una aplicación bancaria no existe ningún requisito técnico que nos diga que una persona menor de 18 años no pueda registrarse, porque a nivel de codigo no hay nada que limite eso, pero la lógica de negocio si lo hace, entonces ahí es cuando entra la parte funcional, que nos va a "decir" como vamos a aplicar los requisitos de negocio en la aplicación.
 
 ## ¿Cómo se aplican?
 
