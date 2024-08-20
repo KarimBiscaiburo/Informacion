@@ -53,7 +53,7 @@ class BankAccount {
 
 ## CASOS DE USO:
 
-Los casos de uso serian aquellas cosas que estan limitadas tecnicamente por algo. Tambien encapsula e implementa todos los casos de uso del sistema. Estos organizan el flujo de datos hacia y desde las entidades y dirigen a estas entidades para que utilicen sus reglas de negocio de toda la empresa para lograr los objetivos del caso de uso. Esta capa debería ser agnóstica a la tecnología y enfocarse únicamente en la lógica del negocio.
+Los casos de uso serian aquellas cosas que estan limitadas tecnicamente por algo. Tambien encapsula e implementa todos los casos de uso del sistema. Estos organizan el flujo de datos hacia y desde las entidades y dirigen a estas entidades para que utilicen sus reglas de negocio de toda la empresa para lograr los objetivos del caso de uso. Esta capa debería ser agnóstica a la tecnología y enfocarse únicamente en la lógica del negocio ya que aqui tambien va la lógica de aplicación.
 > <br>
 
 No esperamos que los cambios en esta capa afecten a las entidades. Tampoco esperamos que esta capa se vea afectada por cambios en externalidades como la base de datos, la interfaz de usuario o cualquiera de los marcos comunes.
