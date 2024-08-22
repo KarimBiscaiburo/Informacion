@@ -43,6 +43,8 @@ Si bien los eventos son parte de la idea, no forman parte de una manera de estru
 
 Se denomina mas formalmente "Trigger" a los eventos que vienen del lado izquierdo del hexagono. Estos son los "actores primarios" o los gatillos que hacen que el hexagono comience a funcionar. En cambio los eventos del lado derecho son simplemente "actores secundarios" o eventos, pero tambien tenemos que tener en cuenta que estos actores secundarios, son a su vez, actores primarios para otro hexagono.
 
+> <hr>
+
 > [!IMPORTANT]
 > Hay que tener en cuenta que la comunicacion entre hexagonos se realiza UNICAMENTE a travez de los adaptadores y sus puertos, nunca un adaptador debe comunicarse directamente con el dominio de otro hexagono.
 
