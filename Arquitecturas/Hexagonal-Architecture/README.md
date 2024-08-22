@@ -7,69 +7,52 @@ A diferencia con la clean architecture, esta no trabaja con capas, sino con hexa
 
 Esta arquitectura esta pensada de la siguiente manera:
 
-* Como parte central y nucleo del hexagono vamos a tener el "Dominio", que es toda la lógica de la aplicación.
-* Luego tenemos los adaptadores, que se van a encargar de enviar o recibir información. Ademas se encargan de implementar la interfaz 
-* En tercer lugar tenemos los "Puertos", que se van a encargar de limitar las acciones que puede hacer nuestro hexagono. Estos tambien se pueden interpretar como interfaces que determinan un contrato que debe cumplir una entidad.
-
-
-
 ## Dominio
 
-
-
-
-
-
-
-
-## Adaptadores
-
-
-
-
-
+El dominio es la parte central del cada hexagono, y por lo tanto, donde va a estar ubicada toda la lógica. 
+> <br>
 
 ## Puertos
 
+Los Puertos, que se van a encargar de limitar las acciones que puede hacer nuestro hexagono. Estos tambien se pueden interpretar como interfaces que determinan un contrato que debe cumplir una entidad.
+> <br>
+A su vez, estos no especifican de ninguna manera como es que se van a implementar en los adaptadores, sino que van a definir la forma que van a tener. Por otro lado tenemos que entender que los puertos funcionan para dentro del hexagono, es decir, definen solamente la estructura que se debe manejar en el adaptador.
+> <br>
 
+### Drivers & Drivens
 
+Los puertos que se encuentran del lado izquiero se denominan "Puertos Drivers" y se encargan de definir las interfaces o estructuras que el hexagono va a recibir para la función que vaya a realizar.
+> <br>
+Los puertos que se encuentran del lado derecho se denominan "Puertos Drivens" y se encargan de definir las interfaces o estructuras que el hexagono debe enviar 
+> <br>
 
+## Adaptadores
 
+Los adaptadores se encargan de enviar o recibir información, e implementan las interfaces que se definen en los puertos.
+> <br>
 
+### Drivers & Drivens
+
+Los adaptadores que se encuentran del lado izquierdo se denominan "Adaptadores Drivers" y se encargan de implementar las interfaces de los puertos y adaptarlas para que la aplicación pueda realizar sus operaciones correctamente.
+> <br>
+Los adaptadores que se encuentran del lado derecho se denominan "Adaptadores Drivens" y se encargan de implementar las interfaces de los puertos y adaptarlas para que puedan ser recibidas por otro adaptador en otro hexagono.
+> <br>
 
 ## Eventos
 
-Si bien los eventos son parte de la idea, no forman parte de una manera de estructurar nuestros archivos, ya que es nada mas que un concepto para entender la comunicación en un hexagono o la comunicación entre hexagonos.
+Si bien los eventos son parte de la idea, no forman parte de una manera de estructurar nuestros archivos, ya que es nada mas que un concepto para entender la comunicación en un hexagono o la comunicación entre hexagonos. Ademas son los encargados de dar comienzo al funcionamiento de un hexagono.
+> <br>
 
+### Triggers
 
+Se denomina mas formalmente "Trigger" a los eventos que vienen del lado izquierdo del hexagono. Estos son los "actores primarios" o los gatillos que hacen que el hexagono comience a funcionar. En cambio los eventos del lado derecho son simplemente "actores secundarios" o eventos, pero tambien tenemos que tener en cuenta que estos actores secundarios, son a su vez, actores primarios para otro hexagono.
+> <br>
 
-
-
-vamos a tener un punto central que va a ser el dominio, varios "adaptadores" que a su vez cada adaptador va a tener cosas que lo limiten, llamados "puertos" y por utlimo vamos a tener los eventos que van llegando a esos puertos
-
-el dominio puede ser la cocina donde se preparan los productos
-los adaptadores serian como los recepcionistas o cajeros que toman la orden y se la trasmiten a la cocina
-los puertos pueden ser como un menu, donde estan cada una de las opciones que tengo para elegir
-los eventos podriamos interpretarlos como los clientes que llegan a nuestro negocio para comprar
-
-ahora, tambien tenemos un problema que surge cuando en la pizzeria nos quedamos sin materias primas para hacer las pizzas
-
-entonces la cocina (el dominio) se debe comunicar con otro receptor (un adaptador) para que este le pida al proveedor (evento), a traves de un puerto, lo que necesitamos. Pero este proveedor es tambien un hexagono con sus respectivos adaptadores, puertos, eventos y dominio
-
-Hay que tener en cuenta que la comunicacion entre hexagonos se realiza UNICAMENTE a travez de los adaptadores y sus puertos, es decir nunca un adaptadore de una pizzeria puede comunicarse directamente con la huerta(proveedor/dominio), sino que si o si tiene que hacerlo mediante el puerto y adaptador de la huerta
-
-cada servicio se podria considerar como un hexagono
-
-eventos izquierdos -> Triggers = son aquellos eventos que hacen que el hexagono empiece a funcionar, los gatillos o actores primarios
-Puertos -> 
-Adaptadores -> Si los adaptadores estan a la izquierda en el hexagono se van a llamar "Driver", son los que conducen a la accion primaria y si estan a la derecha se llaman "Driven", son conducidos. Pero para lo que un hexagono es un driven, para otro hexagono va a ser un driver que va a recibir, por lo tanto tambien seria el Trigger
-Puertos
-eventos derechos -> pueden ser otro hexagono o actores secundarios
-
-* Servicios (servicios de aplicación - lógica de negocio)
-* Puertos (limitar lo que entra o lo que sale de los servicios)
-* Adapters (implementar los puertos)
+> [!IMPORTANT]
+> Hay que tener en cuenta que la comunicacion entre hexagonos se realiza UNICAMENTE a travez de los adaptadores y sus puertos, nunca un adaptador debe comunicarse directamente con el dominio de otro hexagono.
 
 ### Ejemplo:
 
-Supongamos que tenemos nuestro negocio que es un pizzeria
+Supongamos que tenemos nuestro negocio que es un pizzeria, como parte principal vamos a tener la cocina (dominio) que se va a encargar unica y exclusivamente de hacer las pizzas que se van a servir en el negocio. Obviamente la cocina por si sola no es capaz de atender a los clientes (triggers), por lo que van a necesitar de alguien que recepcione los pedidos, estos van a ser los adaptadores, que por medio de un menu (puertos) que define las pizzas que hay y como estan hechas (interfaz), van a comunicar la orden del cliente con la cocina. Esto último es necesario por que lo que para el cliente es una pizza napolitana, para la cocina puede ser una orden n°12.
+> <br>
+Tambien tenemos que contemplar que la cocina en algún momento puede quedarse sin insumos necesarios para preparar los productos, por lo que de alguna manera va pedirle a alguien (otro adaptador) que le de lo que necesita. Este adaptador, mediante un puerto que determine su estructura, va a enviar la petición al proveedor (otro hexagono si se quiere).
