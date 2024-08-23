@@ -31,3 +31,10 @@ CI/CD son siglas que representan Continuous Integration (CI) y Continuous Deploy
 
 > [!NOTE]
 > Hay una carpeta especifica donde trato mas en detalle este tema.
+
+## PWA
+
+Progressive Web App es un tipo de aplicación web que utiliza tecnologías web modernas para ofrecer una experiencia similar a la de una aplicación nativa en dispositivos móviles o de escritorio.
+
+> [!NOTE]
+> Hay una carpeta especifica donde trato mas en detalle este tema.
