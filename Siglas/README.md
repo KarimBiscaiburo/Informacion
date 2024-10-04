@@ -63,3 +63,19 @@ Es una técnica de programación que permite interactuar con una base de datos u
 
 > [!NOTE]
 > Hay una carpeta especifica donde trato mas en detalle este tema.
+
+## API (Application Programming Interface)
+
+Es un conjunto de reglas y definiciones que permite a diferentes aplicaciones o sistemas comunicarse entre sí. Las API permiten que una aplicación acceda a funcionalidades o datos de otra sin conocer su implementación interna. Las API pueden ser usadas para múltiples propósitos, como la comunicación entre un frontend y un backend, entre servicios, o para exponer funcionalidades a desarrolladores externos.
+
+> [!NOTE]
+> Hay una carpeta especifica donde trato mas en detalle este tema.
+
+## REST (Representational State Transfer)
+
+Es una arquitectura de servicio que se caracteriza por no tener estado alguno y por lograr interconexiones mediante el protocolo HTTP con mensajes de tipo XML o JSON
+
+> [!NOTE]
+> Hay una carpeta especifica donde trato mas en detalle este tema.
+
+## SOAP (Simple Object Access Protocol)
