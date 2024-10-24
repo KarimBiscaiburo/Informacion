@@ -24,6 +24,24 @@ Existen una serie de cosas que debemos plantearnos y considerar. Obviamente nues
 
 ![Diseño y Personalidad](./desing_and_personality.png) <br>
 
+* Diseño:
+
+La psicología de los colores nos indica que transmite cada color y lo que puede generar en nuestros clientes cuando los ven reflejados en una marca. Es importante elegir bien los colores que encajen bien entre si, y hay 3 formas de hacerlo. <br>
+
+![The Psychology of Colours](./psychology_of_colours.png) <br>
+
+La primera es buscar los colores complementarios. <br>
+
+![Colores complementarios](complementary_colours.png) <br>
+ 
+Luego estan los colores analogos, los cuales se ubican justo al lado de un color. <br>
+
+![Colores analogos](analogous_colours.png) <br>
+
+Por último estan los colores que forman una "triada". <br>
+
+![Colores triada](triadic_colours.png) <br>
+
 ## Da vida a tu marca en la web
 
 
@@ -35,7 +53,3 @@ Existen una serie de cosas que debemos plantearnos y considerar. Obviamente nues
 
 
 # La Psicología de los Colores
-
-
-
-![The Psychology of Colours](./psychology_of_colours.png)
