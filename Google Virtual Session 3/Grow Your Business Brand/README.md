@@ -1,5 +1,7 @@
 # Grow your bussines brand
 
+(https://www.youtube.com/live/peBhSnfPe8Q)
+
 ## Pautas para construir tu marca
 
 En primera instancia vamos investigar de que se trata y por qué es tan importante. <br>
