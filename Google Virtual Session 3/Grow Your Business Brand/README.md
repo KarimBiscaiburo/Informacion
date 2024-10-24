@@ -24,9 +24,9 @@ Existen una serie de cosas que debemos plantearnos y considerar. Obviamente nues
 
 ![Diseño y Personalidad](./desing_and_personality.png) <br>
 
-* Diseño:
+#### Diseño:
 
-La psicología de los colores nos indica que transmite cada color y lo que puede generar en nuestros clientes cuando los ven reflejados en una marca. Es importante elegir bien los colores que encajen bien entre si, y hay 3 formas de hacerlo. <br>
+La psicología de los colores nos indica que transmite cada color y lo que puede generar en nuestros clientes cuando los ven reflejados en una marca. Es importante elegir bien los colores que encajen bien entre si, ya que por lo general las personas deciden en los primeros 90seg si les gustan o no. Existen 3 formas de hacerlo. <br>
 
 ![The Psychology of Colours](./psychology_of_colours.png) <br>
 
@@ -42,6 +42,21 @@ Por último estan los colores que forman una "triada". <br>
 
 ![Colores triada](triadic_colours.png) <br>
 
+#### ¿Qué emociones emanan los colores?
+
+Es una pregunta que nos tenemos que hacer cuando estamos definiendo los colores que utilizaremos. Nos podría ayudar preguntarnos qué empresas utilizan esos colores, que servicios o productos ofrecen, a quién estan enfocados, etc. <br>
+
+![Emociones que emanan](emotions_evoke.png) <br>
+
+#### Buscar y crear imagenes que se adaptan a tu marca
+
+Debemos buscar la manera que mejor se adapte a nuestras necesidades para que, utilizando imagenes, podamos expresar una idea, servicio, producto o lo que querramos. Las personas suelen retener mucho mas la información si está en una imagen. <br>
+
+![Imagenes que se adaptan a tu marca](images_suit_brand.png) <br>
+
+
+### Personalidad: 
+
 ## Da vida a tu marca en la web
 
 
@@ -50,6 +65,3 @@ Por último estan los colores que forman una "triada". <br>
 
 ## Usa herramientas para optimizar tu marca
 
-
-
-# La Psicología de los Colores
