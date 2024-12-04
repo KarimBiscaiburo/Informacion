@@ -2,7 +2,7 @@
 
 (https://www.youtube.com/watch?v=Fiym37h84mI)
 
-Los temas a tratar en esa sección son sobre:
+Los temas a tratar en esta sección son sobre:
 1. Comprender cómo los cliente encuentran tu negocio en línea.
 2. Mostrar tus productos en Google
 3. Construir nuestra presencia en Google Maps y en los buscadores.
