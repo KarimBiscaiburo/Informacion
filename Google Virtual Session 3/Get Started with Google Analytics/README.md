@@ -8,19 +8,19 @@ Los temas a tratar en esta sección son sobre:
 2. Aprender que herramientas usar.
 3. Usar la información de Google Analytics
 
-![alt text](image.png)
+![Tercera sesion imagen inicial](tercera-sesion-inicio.png)
 
 ## Hacer las preguntas correctas.
 
-Como pregunta principal debemos responder a cual es nuestro objetivo, para mantener esa mentalidad y apuntar a ello
+Un aspecto clave al comenzar con Google Analytics es formular las preguntas correctas. La principal debe centrarse en identificar cuál es nuestro objetivo principal. Esto nos ayuda a mantener un enfoque claro y trabajar en dirección a lo que realmente importa para nuestro negocio o proyecto. Mantener esta mentalidad garantiza que nuestras decisiones estén alineadas con nuestras metas.
 
-![alt text](image-1.png)
+![Mi objetivo](mi-objetivo.png)
 
 ### ¿Cómo encuentras actualmente información sobre el rendimiento de un sitio web en línea?
 
-Es importante que entendamos para que sirven las herramientas de analisis de paginas web y que ventajas nos pueden traer. Además de que la información que nos brindan pueden ayudarnos a tomar mejores decisiones
+Para comprender el rendimiento de un sitio web, es esencial familiarizarnos con las herramientas de análisis disponibles. Estas herramientas no solo nos muestran cómo interactúan los usuarios con nuestro sitio, sino que también nos ofrecen ventajas significativas, como identificar áreas de mejora o medir el impacto de nuestras estrategias. La información que proporcionan es clave para tomar decisiones fundamentadas, optimizar la experiencia del usuario y alcanzar nuestros objetivos con mayor eficacia.
 
-![alt text](image-2.png)
+![¿Cómo encuentras actualmente información sobre el rendimiento de un sitio web en línea?](encontrar-informacion.png)
 
 ### Guía de preguntas
 
@@ -30,21 +30,19 @@ Para guiarnos en el analisis de la informacion es recomendable que sigamos una s
 3. ¿De dónde obtengo esa información?
 4. ¿Qué hago con esa información?
 
-![alt text](image-3.png)
+![Guía de preguntas](guia-preguntas.png)
 
 #### ¿Cuál es mi objetivo?
 
-El objetivo es crucial ya que nos permite definir que enfoque va a tener nuestra busqueda de informacion y con que proposito se realiza
+Definir nuestro objetivo es fundamental, ya que determina el enfoque de nuestra búsqueda de información y el propósito de nuestras acciones. Podemos tener distintas metas, como aumentar la visibilidad de nuestro negocio, incrementar las ventas de productos o servicios, identificar a los consumidores más valiosos, o descubrir nuevas maneras de conectar con clientes previos. Tener claridad sobre lo que buscamos nos permite aprovechar mejor las herramientas de análisis y alinear nuestras estrategias con nuestros objetivos específicos.
 
-podemos querer contarles a mas personas sobre nuestro negocio, vender mas de mi producto o servicio, identificar a los consumidores mas valiosos, encontrar nuevas formas de interactuar con clientes anteriores, etc
-
-![alt text](image-4.png)
+![¿Cuál es mi objetivo?](mis-objetivos.png)
 
 #### ¿Qué pregunta necesito abordar?
 
-Dependiendo lo que estemos buscando, podemos hacernos algunas preguntas como las siguientes:
+La pregunta que necesitas abordar dependerá de tus objetivos específicos. Podemos hacernos preguntas como las siguientes:
 
-![Tipos de preguntas](tipos-preguntas.png)
+![¿Qué pregunta necesito abordar?](tipos-preguntas.png)
 
 **Reach** - Esta pregunta se enfoca en la visibilidad de tu negocio y en atraer visitantes. La pregunta "Who are my visitors and where are they coming from?" busca identificar el perfil de tu audiencia y de dónde proviene el tráfico (ubicación geográfica, canales de tráfico como redes sociales, motores de búsqueda, busquedas orgánicas, etc.).
 
@@ -64,83 +62,93 @@ Dependiendo lo que estemos buscando, podemos hacernos algunas preguntas como las
 
 #### ¿De dónde obtengo esa información?
 
-El lugar de donde obtenemos los datos y cuanta información, flexibilidad, detalles, etc. nos brinden, mas facil y rapido nos resultara accionar
+La fuente de los datos es clave para tomar decisiones eficaces. Herramientas como Google Analytics permiten acceder a información detallada, flexible y organizada, lo que facilita comprender el comportamiento de los usuarios en tu sitio web. Cuanta más precisión y profundidad ofrezcan los datos, más rápido y fácilmente podrás identificar áreas de mejora y definir las acciones necesarias para alcanzar tus objetivos. Escoger una herramienta adecuada garantiza que tu análisis sea eficiente y útil.
 
 ![¿De dónde obtengo esa información?](herramientas-obtener-info.png)
 
-**Redes sociales:** La mayoria de las redes sociales tienen su propia forma de obtener un analisis. 
+**Redes sociales:** Las redes sociales son una fuente importante de información para analizar el rendimiento de tu negocio en línea. La mayoría de estas plataformas ofrecen herramientas integradas de análisis que te permiten conocer métricas clave, como el alcance, la interacción y las características demográficas de tu audiencia. Estos datos son útiles para entender cómo tus campañas están funcionando en cada red social y para ajustar tus estrategias según los resultados obtenidos.
 
 ![Analiticas de redes sociales](herramienta-red-social.png)
 
-Algunos de los **beneficios** son entender que contenido funciona mejor, obtener informacion demografica, medir el impacto de las campañas publicitarias y entender a que publico te estas dirigiendo (para saber de que manera hablarles).
+Las redes sociales no solo facilitan el análisis de datos, sino que también ofrecen múltiples **beneficios** al usar sus herramientas analíticas. Estos incluyen identificar el contenido que genera mayor impacto, obtener información demográfica de tu audiencia, medir la efectividad de tus campañas publicitarias y entender mejor a tu público para comunicarte de manera efectiva.
 
 ![Beneficios de redes sociales](beneficios-red-social.png)
 
-**Los pasos a seguir** en la mayoría de las redes sociales son los siguientes: cambiar tu cuenta a una profesional o de negocio, crear y compartir contenido, revisa las metricas de esa publicacion y compartelas, usa un centro el centro de anuncios de la plataforma que estes usando para medir las metricas del contenido promocionado y considera usar plataformas de terceros para tener mas informacion
+Para aprovechar al máximo estas herramientas, **sigue estos pasos:** cambia tu cuenta a una profesional o de negocio, crea y comparte contenido, revisa y analiza las métricas de tus publicaciones, y utiliza el centro de anuncios de la plataforma para medir los resultados de contenido promocionado. Además, considera usar herramientas de terceros para obtener análisis más completos y detallados.
 
 ![Pasos para analisis en una red social](pasos-red-social.png)
 
-Puedes utilizar herramientas como **Google Search Console** para ver informacion valiosa de los visitantes provenientes de resultados organicos de Google
+**Google Search Console** es una herramienta poderosa para obtener información valiosa sobre los visitantes provenientes de los resultados orgánicos de Google.
 
 ![Herramienta Google Search Console](google-search-console-tool.png)
 
-algunos de los **beneficios** son verificar que google pueda encontrar tu pagina, solucionar problemas y recibir alertas sobre nuevos problemas, monitorear que tan seguido aparece tu pagina en el buscador de Google y descubrir en que busquedas se muestra tu pagina
+Algunos de sus principales **beneficios** incluyen verificar que Google pueda encontrar tu sitio, solucionar problemas técnicos, recibir alertas sobre nuevos inconvenientes, monitorear la frecuencia con la que tu página aparece en las búsquedas y descubrir en qué términos de búsqueda se muestra.
 
 ![Beneficios de Google Search Console](beneficios-google-console.png)
 
-**Los pasos a seguir** para utilizar esta herramienta son: acceder a "g.co/searchconsole", verificar tu pagina, revisar que google haya encontrado todas tus paginas, ver el reciente desempeño de tu pagina y aprender lo básico de las busquedas de Google y SEO
+Para comenzar a usar esta herramienta, **sigue estos pasos:** accede a g.co/searchconsole, verifica la propiedad de tu página, asegúrate de que todas tus páginas hayan sido indexadas correctamente, analiza el desempeño reciente de tu sitio y familiarízate con los conceptos básicos de búsquedas en Google y SEO. Esto te permitirá optimizar tu presencia en los resultados de búsqueda y mejorar tu estrategia digital.
 
 ![Pasos a seguir en Google Search Console](pasos-google-console.png)
 
-Puedes utilizar herramientas como **Google Business Profile**  para manejar tu presencia online a traves del buscador de Google y Google Maps
+**Google Business Profile** es una herramienta esencial para gestionar tu presencia en línea a través del buscador de Google y Google Maps.
 
 ![Herramienta Google Business Profile](business-profile-tool.png)
 
-Algunos de los **beneficios** de utilizar esta herramienta son: ver el numero de direcciones solicitadas y clicks en las paginas, ver el numero de personas que clickean en tu perfil de negocio, entender como las personas encuentran tu negocio y que busquedas hacen, y aprovechar la informacion para aparecer en las búsquedas y mapas
+Al utilizarla, puedes obtener **beneficios** como conocer cuántas personas solicitan direcciones o hacen clic en tu página, cuántas interactúan con tu perfil de negocio, entender cómo encuentran tu negocio y qué búsquedas realizan. Esta información es clave para optimizar tu visibilidad en búsquedas y mapas.
 
 ![Beneficios de Google Business Profile](beneficios-business-profile.png)
 
-**Los pasos a seguir** para utilizar esta herramienta son: registrarte y loguearte en "business.google.com", buscar en Google el nombre exacto de tu negocio, seleccioná "Promote > Performance" y elegí un rango de fecha para ver la informacion
+Para empezar, **sigue estos pasos:** regístrate e inicia sesión en business.google.com, busca el nombre exacto de tu negocio en Google, selecciona Promote > Performance, y elige un rango de fecha para analizar la información relevante. Esto te permitirá tomar decisiones informadas para mejorar tu estrategia de presencia local.
 
 ![Pasos a seguir en Google Business Profile](pasos-business-profile.png)
 
-Puedes utilizar herramientas como **PageSpeed Insights** para ver el rendimiento de tu pagina web
+**PageSpeed Insights** es una herramienta eficaz para analizar el rendimiento de tu página web.
 
 ![Herramienta PageSpeed Insights](pagespeed-tool.png)
 
-Algunos de los **beneficios** de utilizar esta herramienta son: Ver que tan rapido carga tu pagina, obtener recomendaciones de mejoras, aprender como optimizar tu pagina para que el usuario tenga una mejor experiencia y obtener un reporte completo de tu pagina
+Algunos de los **beneficios** de utilizarla incluyen evaluar qué tan rápido carga tu página, obtener recomendaciones sobre posibles mejoras, aprender a optimizar tu sitio para mejorar la experiencia del usuario y recibir un reporte detallado sobre el rendimiento.
 
 ![Beneficios de PageSpeed Insights](beneficios-pagespeed.png)
 
-**Los pasos a seguir** para utilizar esta herramienta son: visitar pagespeed.web.dev/, ingresar la URL que deseas revisar, ver la puntuacion y sugerencias, personalizar e implementar mejoras en tu pagina y elegir un rango de fecha para ver la informacion
+Para utilizar esta herramienta, **sigue estos pasos:** visita pagespeed.web.dev, ingresa la URL de la página que deseas analizar, revisa la puntuación y las sugerencias que te proporciona, personaliza e implementa las mejoras recomendadas, y selecciona un rango de fechas para obtener un análisis más específico de tu sitio web.
 
 ![Pasos a seguir en PageSpeed Insights](pasos-pagespeed.png)
 
-Tambien podes analizar cada click que hace el usuario en tu propia pagina web con Google Analytics y manejar tu presencia online a traves de los buscadores de Google y Google Maps
+Con **Google Analytics**, puedes analizar el comportamiento de los usuarios en tu página web, incluyendo cada clic que realizan, lo que te ayuda a comprender cómo interactúan con tu contenido. Además, puedes gestionar tu presencia online a través de los buscadores de Google y Google Maps, lo que te permite optimizar tu visibilidad y atraer más visitantes.
 
 ![Herramienta Google Analytics](analytics-tool.png)
 
-Algunos de los **beneficios** de utilizar esta herramienta son: Evaluar tu rendimiento del marketing, entender el comportamiento de tus clientes, conocer a tus usuarios y sus comportamientos, y enlazar con otros productos de metricas (como Google Ads) para tener una vista mas completa
+Algunos de los **beneficios** de utilizar Google Analytics incluyen evaluar el rendimiento de tus campañas de marketing, entender el comportamiento de tus clientes, conocer más sobre tus usuarios y sus preferencias, y vincularlo con otras herramientas de métricas, como Google Ads, para obtener una visión más completa de tu estrategia digital.
 
 ![Beneficios de Google Analytics](beneficios-analytics.png)
 
 #### ¿Qué hago con esa información?
 
-En esta parte es donde muchos se quedan atascados ya que no saben que hacer con los "numeros" de los datos que obtienen de las analiticas. Saber que hacer con esa informacion o tener un panorama de que es lo que estas buscando cuando obtenes datos, hace mucho la diferencia
+Muchas veces, las personas se sienten abrumadas por los "números" y datos obtenidos a través de herramientas de análisis, pero saber cómo interpretarlos y qué hacer con ellos marca una gran diferencia. Lo primero es tener claro qué estás buscando al recolectar información. Si tu objetivo es aumentar las ventas, por ejemplo, puedes enfocarte en identificar los puntos débiles del embudo de ventas, como páginas con alta tasa de rebote o bajos tiempos de interacción. Si buscas mejorar la experiencia del usuario, puedes analizar la velocidad de carga, la usabilidad o las páginas más vistas. Tener un panorama claro de lo que buscas te permite tomar decisiones informadas y aplicar cambios estratégicos, como optimizar contenido, mejorar la navegación o ajustar campañas publicitarias.
 
 **Google Analytics 4**
 
-Google Analytics 4 es la nueva versión que incluye machine learning como corazon, para ayudarte a encontrar insights trends y predicciones a traves de dispositivos
+Google Analytics 4 es la nueva versión de la herramienta que integra machine learning como su núcleo para ayudarte a descubrir insights, tendencias y realizar predicciones a través de todos los dispositivos. Esta actualización permite obtener análisis más profundos y personalizados de los comportamientos de los usuarios, mejorando la capacidad de tomar decisiones basadas en datos.
 
 ![Google Analytics 4](google-analytics-4.png)
 
-Para cambiar a esta nueva versión tienes que primero haber conectado tu web al mismo (puedes buscar los pasos en el buscador de Google) y luego seguir estos pasos: Ingresar a tu cuenta, navegar hacia el panel administrativo, elegir la propiedad que te gustaria asignar a Google Analytics 4 y hacer click en GA4 Set-up Assistant para luego seguir los pasos que te indique
+Para migrar a Google Analytics 4, primero asegúrate de haber conectado tu sitio web a la plataforma (puedes buscar los pasos específicos en Google). Luego, sigue estos pasos: ingresa a tu cuenta de Google Analytics, navega hacia el panel administrativo, selecciona la propiedad que deseas asignar a Google Analytics 4, y haz clic en GA4 Setup Assistant. Sigue las instrucciones que aparecen para completar el proceso de configuración.
 
 ![Cambiar a Google Analytics 4](cambiar-google-analytics-4.png)
 
 **Reportes de Google Analytics** 
 
-Con esta herramienta podemos generar diferentes tipos de reportes como de "adquisición", "compromiso", "monetizacion" o "retencion". Los de adquisicion serian como de donde vienen mis usuarios, los de compromiso seria de como se comportan los usuarios en mi sitio web, como los usuarios gastan si dinero y los de retencion serian de si los usuarios vuelven. 
+Con esta herramienta podemos generar diferentes tipos de reportes. Algunos de los principales incluyen:
+
+**Adquisición**: Estos reportes te muestran de dónde provienen tus usuarios, es decir, qué canales están generando tráfico hacia tu sitio (como búsquedas orgánicas, redes sociales, o tráfico directo).
+
+**Compromiso**: Te ayudan a entender cómo los usuarios interactúan con tu sitio web, cómo navegan por las páginas, cuánto tiempo pasan en ellas y qué tipo de contenido atrae más su atención.
+
+**Monetización**: Se enfoca en cómo los usuarios gastan su dinero en tu sitio, es decir, las compras o conversiones realizadas a través de tus páginas, permitiéndote evaluar la efectividad de tus estrategias de ventas.
+
+**Retención**: Este reporte analiza si los usuarios regresan a tu sitio después de su primera visita, lo que te permite medir la lealtad y el valor a largo plazo de tu audiencia.
+
+Estos reportes son fundamentales para comprender el comportamiento de tus usuarios y tomar decisiones informadas sobre cómo mejorar cada etapa de su experiencia.
 
 ![Reportes de Google Analytics](report-google-analytics.png)
 
